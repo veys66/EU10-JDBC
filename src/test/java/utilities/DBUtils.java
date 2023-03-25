@@ -21,8 +21,8 @@ public class DBUtils {
     }
 
     public static void createConnection() {
-        String dbUrl = "jdbc:oracle:thin:@44.202.119.26:1521:XE";
-        String dbUsername = "hr";
+        String dbUrl = "jdbc:oracle:thin:@18.212.218.144:1521:XE";
+        String dbUsername = "HR";
         String dbPassword = "hr";
         try {
             connection = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
