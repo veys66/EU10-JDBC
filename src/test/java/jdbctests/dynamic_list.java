@@ -6,7 +6,7 @@ import java.sql.*;
 import java.util.*;
 
 public class dynamic_list {
-    String dbUrl = "jdbc:oracle:thin:@44.195.19.167:1521:XE";
+    String dbUrl = "jdbc:oracle:thin:@18.212.218.144:1521:XE";
     String dbUsername = "hr";
     String dbPassword = "hr";
 
