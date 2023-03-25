@@ -5,8 +5,8 @@ import java.sql.*;
 public class TestConnection {
 
     public static void main(String[] args) throws SQLException {
-        String dbUrl = "jdbc:oracle:thin:@44.202.119.26:1521:XE";
-        String dbUsername = "hr";
+        String dbUrl = "jdbc:oracle:thin:@18.212.218.144:1521:XE";
+        String dbUsername = "HR";
         String dbPassword = "hr";
 
         Connection connection = DriverManager.getConnection(dbUrl,dbUsername,dbPassword);
